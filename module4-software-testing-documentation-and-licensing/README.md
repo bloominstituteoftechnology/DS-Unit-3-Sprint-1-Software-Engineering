@@ -15,8 +15,7 @@ software licensing, both in the code you depend on and create.
 ## Before Lecture
 
 Read the official documentation for
-[unittest](https://docs.python.org/3/library/unittest.html), a Python module for
-writing basic tests included in the standard library.
+[pytest](https://docs.pytest.org/en/stable/), a Python package for writing unit test.
 
 Read the [pandas
 README.md](https://github.com/pandas-dev/pandas/blob/master/README.md) - it
@@ -39,7 +38,7 @@ well!
 
 Spruce up `lambdata`!
 
-- Add at least one basic `unittest` to `lambdata`
+- Add at least one basic `pytest` to `lambdata`
 - Make sure there are docstrings wherever PEP 8 demands
 - Write a high-quality `README.md` that is both skimmable and has appropriate
   examples/details/links for someone who wants to understand your code
@@ -57,9 +56,8 @@ package to generate documentation based on your docstring comments. Try browsing
 it locally, and for an extra stretch goal - put it in a `/docs` directory in
 your repo and enable GitHub Pages to serve it on the web!
 
-Try [pytest](https://docs.pytest.org/en/latest/), a widely used Python testing
-framework a bit more powerful than `unittest` (though you do have to install
-it - but you've been dealing with `pip` a lot!).
+Try [unittest](https://docs.python.org/3/library/unittest.html), a Python testing
+framework apart of the standard library a bit less powerful than `pytest`.
 
 Read [the MIT License, Line by
 Line](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html),
