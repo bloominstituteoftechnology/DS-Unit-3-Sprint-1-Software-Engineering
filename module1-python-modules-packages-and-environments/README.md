@@ -25,18 +25,18 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
 
-     **Example Input** (df = pd.DataFrame):
-     > | column 0    | column 1    | column 2    |
-     > | ----------- | ----------- | ----------- |
-     > | NaN         | 9           | 10          |
-     > | 4           | NaN         | 2           |
-     > | 3           | NaN         | 2           |
+         **Example Input** (df = pd.DataFrame):
+         > | column 0    | column 1    | column 2    |
+         > | ----------- | ----------- | ----------- |
+         > | NaN         | 9           | 10          |
+         > | 4           | NaN         | 2           |
+         > | 3           | NaN         | 2           |
 
-     **Function**:
-     > `null_count(df)`
+         **Function**:
+         > `null_count(df)`
 
-     **Expected Output** (int):
-     > `3`
+         **Expected Output** (int):
+         > `3`
 
 * `def train_test_split(df, frac)`: Create a Train/Test split function for a dataframe and returns both the Training and Testing sets. `Frac` referes to the precent of data you would like to set aside for training.
 
