@@ -32,7 +32,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 4           | NaN         | 2           |
   > | 3           | NaN         | 2           |
   
-  > null_count(df)
+  > `null_count(df)`
   
   > Expected Output (int)  
   > `3`
@@ -45,7 +45,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 3           | 4           | 5           |
   > | 6           | 7           | 8           |
 
-  > train_test_split(df, frac=0.2)
+  > `train_test_split(df, frac=0.2)`
 
   > Expected Output (tuple of two dataframes)  
   
@@ -70,7 +70,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 3           | 4           | 5           |
   > | 6           | 7           | 8           |
   
-  > randomize(df, seed=101)
+  > `randomize(df, seed=101)`
   
   > Expected Output (pd.Dataframe)  
   > | column 0    | column 1    | column 2    |
@@ -87,7 +87,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | 379 Cain Plaza\nJosephburgh, WY 06332      |
   > | 5303 Tina Hill\nAudreychester, VA 97036    |
   
-  > addy_split(addy_series)
+  > `addy_split(addy_series)`
   
   > Expected Output (pd.Dataframe)  
   > | city          | state       | zip         |
@@ -107,7 +107,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | Delaware   |
   > | Ohio       |
   
-  > abbr_2_st(state_series, abbr_2_st=True)
+  > `abbr_2_st(state_series, abbr_2_st=True)`
   
   > Expected Output (pd.Series)  
   > | st_2_abbr     |
@@ -118,10 +118,52 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   > | DE            |
   > | OH            |
 * `def list_2_series(list_2_series, df)`: Single function to take a list and dataframe then turn the list into a series and add it to the inputted dataframe as a new column.
+  > Example Input (list)
+  > `[0, 1, 2]`
+
+  > `list_2_series(list, pd.DataFrame())`
+  
+  > Expected Output (pd.Dataframe)  
+  > | list          |
+  > | ------------- |
+  > | 0             |
+  > | 1             |
+  > | 2             |
+
 
 * `def rm_outlier(df)`: A 1.5*Interquartile range outlier detection/removal function that gets rid of outlying rows and returns that outlier cleaned dataframe.
+  > Example Input (df = pd.DataFrame)
+  > | column 0    | column 1    | column 2    |
+  > | ----------- | ----------- | ----------- |
+  > | 0           | 1           | 2           |
+  > | 3           | 850         | 5           |
+  > | 6           | 7           | 8           |
+
+  > `rm_outlier(df)`
+  
+  > Example Output (df = pd.DataFrame)
+  > | column 0    | column 1    | column 2    |
+  > | ----------- | ----------- | ----------- |
+  > | 0           | 1           | 2           |
+  > | 6           | 7           | 8           |
+
 
 * `def split_dates(date_series)`: Function to split dates of format "MM/DD/YYYY" into multiple columns (df['month'], df['day'], df['year']) and then return the same dataframe with those additional columns.
+  > Example Input (date_series = pd.Series)
+  > | column 0    |
+  > | ----------- |
+  > | 02/28/2006  |
+  > | 03/09/2010  |
+  > | 06/12/1850  |
+
+  > `split_dates(date_series)`
+  
+  > Example Output (df = pd.DataFrame)
+  > | month       | day         | year        |
+  > | ----------- | ----------- | ----------- |
+  > | 02          | 28          | 2006        |
+  > | 03          | 09          | 2010        |
+  > | 06          | 12          | 1850        |
 
 **STRETCH GOALS:**
 > 3) Register for a test PyPI account
