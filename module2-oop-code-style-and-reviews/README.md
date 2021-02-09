@@ -76,6 +76,8 @@ As an additional exercise, pair up with a fellow student (self organized) and pe
 newly written OOP converted helper functions! Remember to think about the previous considerations in your code review
 and walk them through areas you think could use some improvement. 
 
+Please submit your new `helper_functions.py` that's been transformed into classes and 
+the edited code review as a file named `code_review.py`.
 
 ## Resources and Stretch Goals
 
