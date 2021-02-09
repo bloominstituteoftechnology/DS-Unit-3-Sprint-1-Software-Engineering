@@ -79,9 +79,6 @@ and walk them through areas you think could use some improvement.
 
 ## Resources and Stretch Goals
 
-***Stretch***: As a stretch goal, try to implement classes in all your functions and continue to create more of the 
-helper functions found in Sprint 1 Module 1.
-
 If you have trouble getting a PEP8 tool working in your local environment, you
 can use [PEP8 online](http://pep8online.com/) to check code.
 
@@ -89,5 +86,5 @@ Also, many organizations create their own "flavor" of style guides - for an exam
 read the
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
 
-And if you get through all the above - make `lambdata` better! Implement 2 more
+***Stretch***: And if you get through all the above - make `lambdata` better! Implement 2 more
 helper functions, and/or refactor your code to be more object-oriented.
