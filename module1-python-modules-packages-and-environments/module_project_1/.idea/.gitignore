@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\jalir\Documents\Github\Lambda Repos\DS-Unit-3-Sprint-1-Software-Engineering\module1-python-modules-packages-and-environments\module_project_1\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
