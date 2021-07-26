@@ -17,8 +17,7 @@
 ## Live Lecture Task
 
 Working with Docker is tricky - we'll step through a complete workflow live, and
-answer questions that arise. In-depth debugging should be done 1:1 with PMs
-after lecture.
+answer questions that arise.
 
 ## Assignment
 
