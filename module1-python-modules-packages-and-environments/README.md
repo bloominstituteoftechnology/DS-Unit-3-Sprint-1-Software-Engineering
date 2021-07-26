@@ -81,7 +81,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
            > | 0           | 3           | 6           |
            > | 1           | 4           | 7           |
   
-* `def addy_split(addy_series)`: Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use regexes to detect the format and pull out important pieces.
+* `def addy_split(addy_series)`: Split addresses into three columns (df['city'], df['state'], and df['zip']) - you can use [regex](https://docs.python.org/3/library/re.html) to detect the format and pull out important pieces.
 
            Example Input (addy_series = pd.Series):
            > | address                                    |
@@ -102,7 +102,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
            > | Josephburgh   | WY          | 06332       |
            > | Audreychester | VA          | 97036       |
   
-* `def abbr_2_st(state_series, abbr_2_st=True)`: Return a new column with the full name from a State abbreviation column -> An input of FL would return Florida. This function should also take a boolean (`abbr_2_state`) and when `False` takes full state names and return state abbreviations. -> An input of Florida would return Fl.
+* `def abbr_2_st(state_series, abbr_2_st=True)`: Return a new column with the full name from a State abbreviation column. An input of FL would return Florida. This function should also take a boolean (`abbr_2_state`) and when `False` takes full state names and return state abbreviations. An input of Florida would return Fl.
 
            Example Input (state_series = pd.Series):
            > | states     |
@@ -184,7 +184,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
 > !pip install --index-url https://test.pypi.org/simple/ lambdata-yourusername
 > 6) import lambdata_yourusername as lambdata in your notebook, and try it out!
 
-> I suggest using Twine for uploading your pypi packages. 
+> I suggest using [Twine](https://pypi.org/project/twine/#:~:text=Twine%20is%20a%20utility%20for,and%20links%20to%20additional%20resources) for uploading your pypi packages. 
 > Twine itself can be installed with pipenv install -d twine so it is a
 > development dependency.
 
