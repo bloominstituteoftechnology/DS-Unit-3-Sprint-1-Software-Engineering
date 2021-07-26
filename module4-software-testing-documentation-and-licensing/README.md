@@ -44,6 +44,8 @@ Spruce up `lambdata`!
   examples/details/links for someone who wants to understand your code
 - Pick a license for your package, and add it in a `LICENSE` file.
 
+Please submit your `pytest` file (the one with the test) and your `README.md` to Canvas.
+
 ## Resources and Stretch Goals
 
 Add a `ROADMAP.md` file to your repo, with an outline of where you'd like to
