@@ -31,8 +31,8 @@ is a safe time to do it (and good practice for the assignment!).
 
 ## Assignment
 
-First, revisit your code from yesterday - was it stylistic? Run a style check 
-and correct any issues you see. Also, refactor your code
+First, revisit your code from yesterday - was it stylistic? Look over your code and compare it to the PEP8 guide (maybe even use your linter)
+and correct any issues you see. Also, refactor the code you wrote yesterday (the helper functions)
 to use at least 1 class - remember, be DRY (Don't Repeat Yourself), not WET
 (Write Every Time)!
 
@@ -72,9 +72,6 @@ Here a few considerations to keep in mind while doing a code review:
 - Could you build with (`import` and use) or extend on it (as a developer adding
   more to the codebase)?
   
-As an additional exercise, pair up with a fellow student (self organized) and perform a code review on their
-newly written OOP converted helper functions! Remember to think about the previous considerations in your code review
-and walk them through areas you think could use some improvement. 
 
 Please submit your new `helper_functions.py` that's been transformed into classes and 
 the edited code review as a file named `code_review.py`.
