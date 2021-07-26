@@ -9,7 +9,7 @@ Places for your code (and dependencies) to live.
 
 ## Before Lecture
 
-Install `pipenv` and `git` on your local machine if you haven't already, and
+Install `pipenv` and `git` on your local machine (your computer) if you haven't already, and
 read the official documentation for
 [Python modules](https://docs.python.org/3.7/tutorial/modules.html).
 
