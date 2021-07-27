@@ -33,16 +33,15 @@ You should follow this work flow in terms of creation: Dockerfile -> Image -> Co
 
 ## Resources and Stretch Goals
 
-### Stretch: 
-> If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
-> 
-> This is a relatively simple baseline to support the variety of local workflows
-> students will have.
->
-> On Canvas please turn in your `Dockerfile`.
+#### Stretch: 
+If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
+ 
+This is a relatively simple baseline to support the variety of local workflows
+students will have.
 
+On Canvas please turn in your `Dockerfile`.
 
-
+#### Resources:
 If your local installation isn't working, you can use the [Play with Docker
 Classroom](https://training.play-with-docker.com/) - a Docker Hub account will
 let you try Docker and spin up containers from your browser. They are
