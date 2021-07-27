@@ -42,6 +42,7 @@ students will have.
 On Canvas please turn in your Dockerfile.
 
 
+
 If your local installation isn't working, you can use the [Play with Docker
 Classroom](https://training.play-with-docker.com/) - a Docker Hub account will
 let you try Docker and spin up containers from your browser. They are
