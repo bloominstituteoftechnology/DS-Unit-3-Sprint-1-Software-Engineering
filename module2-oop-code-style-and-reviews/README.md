@@ -70,10 +70,11 @@ the edited code review as a file named `code_review.py`.
 
 ## Resources and Stretch Goals
 
+#### Stretch: 
+If you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
+
+#### Resources:
+
 If you have trouble getting a PEP8 tool working in your local environment, you can use [PEP8 online](http://pep8online.com/) to check code.
 
 Also, many organizations create their own "flavor" of style guides - for an example, read the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
-
-### Stretch: 
-If you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
-
