@@ -1,33 +1,25 @@
-# Object-Oriented Programming, Code Style and Reviews
+## Module 2 Project - Object-Oriented Programming, Code Style and Reviews
 
-"Code that works" is good - "code that other people can read" is better.
+_Code that works_ is good - _code that other people can read_ is better.
+
 
 ## Learning Objectives
-
-- create a basic Python class, with a constructor, methods, and fields
-- write stylistic (PEP 8) Python code, and give and receive a basic code review
+* Create a basic Python class, with a constructor, methods, and fields
+* Write stylistic (PEP 8) Python code, and give and receive a basic code review
 
 ## Before Lecture
+Read the [official Python Class tutorial](https://docs.python.org/3/tutorial/classes.html), and try to reproduce the examples in your own Python environment.
 
-Read the [official Python Class
-tutorial](https://docs.python.org/3/tutorial/classes.html), and try to reproduce
-the examples in your own Python environment.
+Read the [PEP 8 style guide](https://pep8.org/), and then look back at code you've written in the past. Identify at least three times you did something the style guide says you shouldn't, and write a corrected version.
 
-Read the [PEP 8 style guide](https://pep8.org/), and then look back at code
-you've written in the past. Identify at least three times you did something the
-style guide says you shouldn't, and write the corrected version.
 
 ## Live Lecture Task
+Together we will live code a class based on Learner request/discussion, brainstorming what fields and methods make sense. We will then discuss style more broadly.
 
-We will first live code a class based on class request/discussion, brainstorming
-what fields and methods make sense. We will then discuss style more broadly.
+Style matters - but we're engineers, which means we're a little lazy. Let's set up tools to check style automatically, so we fix issues before they hit review.
 
-Style matters - but we're engineers, which means we're a little lazy. Let's set
-up tools to check style automatically, so we fix issues before they hit review.
+Next, we will discuss what a code review actually is. We will have a couple of you volunteer to have their code reviewed with the class. It may feel intimidating, but this is a great time to do it. Having your code reviewed is a great way to get feedback and level up your skills (and is great practice for the assignment!).
 
-Then we will discuss what a code review actually is, and if folks are brave they
-can volunteer to have their code reviewed with the class. It's scary, but this
-is a safe time to do it (and good practice for the assignment!).
 
 ## Assignment
 
@@ -78,12 +70,9 @@ the edited code review as a file named `code_review.py`.
 
 ## Resources and Stretch Goals
 
-If you have trouble getting a PEP8 tool working in your local environment, you
-can use [PEP8 online](http://pep8online.com/) to check code.
+If you have trouble getting a PEP8 tool working in your local environment, you can use [PEP8 online](http://pep8online.com/) to check code.
 
-Also, many organizations create their own "flavor" of style guides - for an example,
-read the
-[Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
+Also, many organizations create their own "flavor" of style guides - for an example, read the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
 
-***Stretch***: And if you get through all the above - make `lambdata` better! Implement 2 more
-helper functions, and/or refactor your code to be more object-oriented.
+_Stretch_: And if you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
+
