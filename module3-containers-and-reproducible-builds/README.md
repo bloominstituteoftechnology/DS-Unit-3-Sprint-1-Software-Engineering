@@ -31,7 +31,9 @@ be sure to use a different Operating System than the one you are currently using
 
 You should follow this work flow in terms of creation: Dockerfile -> Image -> Container -> helper_functions.py
 
-***Stretch:***  
+## Resources and Stretch Goals
+
+### Stretch: 
 If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
 
 This is a relatively simple baseline to support the variety of local workflows
@@ -39,7 +41,6 @@ students will have.
 
 On Canvas please turn in your Dockerfile.
 
-## Resources and Stretch Goals
 
 If your local installation isn't working, you can use the [Play with Docker
 Classroom](https://training.play-with-docker.com/) - a Docker Hub account will
