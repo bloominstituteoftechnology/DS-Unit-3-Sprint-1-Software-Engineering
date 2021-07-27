@@ -74,5 +74,6 @@ If you have trouble getting a PEP8 tool working in your local environment, you c
 
 Also, many organizations create their own "flavor" of style guides - for an example, read the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
 
-_Stretch_: And if you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
+### Stretch: 
+If you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
 
