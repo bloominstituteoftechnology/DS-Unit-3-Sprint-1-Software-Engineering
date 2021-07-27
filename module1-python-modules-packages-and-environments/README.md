@@ -175,7 +175,7 @@ We're going to start our own Python package the right way - by making an environ
 
 ## **Resources and Stretch Goals**
 
-### STRETCH GOALS
+#### Stretch:
 1. Register for a test PyPI account
 2. Publish your package as lambdata-yourusername (to avoid conflicts)
 3. Start a Python notebook, and install your package with !pip install --index-url [https://test.pypi.org/simple/](https://test.pypi.org/simple/) lambdata-yourusername
@@ -184,6 +184,8 @@ We're going to start our own Python package the right way - by making an environ
 We suggest using [Twine](https://pypi.org/project/twine/#:~:text=Twine%20is%20a%20utility%20for,and%20links%20to%20additional%20resources.) for uploading your pypi packages. Twine itself can be installed with pipenv install -d twine so it is a development dependency.
 
 You might find the command below important in uploading: twine upload --repository-url [https://test.pypi.org/legacy/](https://test.pypi.org/legacy/) dist/*
+
+#### Resources:
 
 Many of the utility functions can be implemented with the right clever calls to pandas, numpy, and other libraries - that's fine! Use those as dependencies. There's still value in a package that encapsulates more complicated libraries and exposes streamlined functionality with a simplified API. If you would like to generate some fake data check out the [Faker python package](https://faker.readthedocs.io/en/master/) to craft specific data types.
 
