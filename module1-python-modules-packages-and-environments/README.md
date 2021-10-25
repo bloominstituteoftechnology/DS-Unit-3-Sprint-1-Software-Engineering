@@ -29,7 +29,7 @@ During today's Guided project we'll be talking about:
 - Virtual Environments
 - Python scripts, modules, packages, and libraries
 
-For more information visit the [Guided Project markdown file](/guided-project.md)
+For more information visit the [Guided Project markdown file](https://github.com/ryanleeallred/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module1-python-modules-packages-and-environments/guided-project.md)
 
 ## Module Project (assignment)
 
@@ -37,7 +37,7 @@ For more information visit the [Guided Project markdown file](/guided-project.md
 1) Create your own lambdata-yourusername package (structure your package the same way it was done in the lecture)  
 2) Implement at least 2 of the following "helper" utility functions in a `helper_functions.py` module.
 
-For more information visit the [Module Project markdown file](/assignment.md)
+For more information visit the [Module Project markdown file](https://github.com/ryanleeallred/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module1-python-modules-packages-and-environments/assignment.md)
 
 ## Stretch Goal 
 
