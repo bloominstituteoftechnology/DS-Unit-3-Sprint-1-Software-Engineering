@@ -100,7 +100,7 @@ Instantiating a class will return to us an object which we can then save to a va
 
 Think of a class like a mold for casting objects, and the object itself as the objects that get created from the mold. The raw materials that we pour into the mold are like the variables that we provide when we initialize the object. 
 
-![molds can create many objects](/images/mold.jpeg)
+![molds can create many objects](/images/mold-casting.jpeg)
 
 ## `if __name__ == "__main__":`
 
