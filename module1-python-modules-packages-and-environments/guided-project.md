@@ -1,6 +1,6 @@
 ## **Before Lecture**
 
->In order to follow along fully with today's Guided Project, please install the following tools from: [this document](https://github.com/LambdaSchool/DS-Unit-3-Setup).
+>In order to follow along fully with today's Guided Project, please install the following tools from: [this document](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Setup).
 >
 >- VS Code
 >- Git Bash

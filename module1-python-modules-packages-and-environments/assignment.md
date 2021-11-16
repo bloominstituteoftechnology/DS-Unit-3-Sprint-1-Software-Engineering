@@ -8,14 +8,14 @@ Places for your code (and dependencies) to live.
 
 ## **Before Lecture**
 
-Please install the following before our Guided Project. Instructions can be found [here](https://github.com/LambdaSchool/DS-Unit-3-Setup).
+Please install the following before our Guided Project. Instructions can be found [here](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Setup).
 
 - VS Code
 - Git Bash
 - Python
 - Pipenv
 
-In order to pursue today's stretch goal's you'll also want to have installed the following. Instructions can be found towards the bottom of [this document](https://github.com/LambdaSchool/
+In order to pursue today's stretch goal's you'll also want to have installed the following. Instructions can be found towards the bottom of [this document](https://github.com/BloomInstituteOfTechnology/
 
 - git (if on Mac). If you're on Windows git is installed automatically with Git Bash.
 - Set up an SSH key on your local machine.

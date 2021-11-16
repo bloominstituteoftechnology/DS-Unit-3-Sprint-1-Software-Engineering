@@ -18,11 +18,11 @@ Check out the [Open Source Initiative](https://opensource.org/licenses), the gro
 
 ## Live Lecture Task
 
-See [guided-project.md](https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module4-software-testing-documentation-and-licensing/guided-project.md)
+See [guided-project.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module4-software-testing-documentation-and-licensing/guided-project.md)
 
 ## Assignment
 
-See [assignment.md](https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module4-software-testing-documentation-and-licensing/assignment.md)
+See [assignment.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module4-software-testing-documentation-and-licensing/assignment.md)
 
 ## Stretch Goal
 
