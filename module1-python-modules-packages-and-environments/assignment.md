@@ -53,7 +53,7 @@ Write a function that returns a random **float** sampled from a uniform distribu
 
 ---
 
-3) `random_bowling_score():`
+3) `def random_bowling_score():`
 
 Write a function that when called returns a random **integer** between 0 and 300.
 
