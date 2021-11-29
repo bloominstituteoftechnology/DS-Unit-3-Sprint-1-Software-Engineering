@@ -17,17 +17,21 @@ In order to pursue today's stretch goal's you'll also want to have installed the
 
 ## Assignment
 
-1) Create your own `lambdata-yourusername` package (structure your package the same way it was done in the lecture).  
+### Part 1
 
-2) Implement the following "helper" utility functions in a `helper__functions.py` module. These code tasks will give you familiarity with some techniques that will be helpful for the sprint challenge! NumPy will be a useful dependency for generating certain kinds of random numbers.
+Create your own `lambdata-yourusername` package (structure your package the same way it was done in the lecture). Make sure that you're working from a virtual environment and that you have an outer project-level folder and an inner project sub-folder.
 
-* `def random_phrase():` Write a function that can create a random combination of adjectives and nouns. When called the function should return a single string containing a **randomly selected** adjective and noun pair:
+### Part 2
 
-### Adjectives
+Implement the following "helper" utility functions in a `helper__functions.py` module. These code tasks will give you familiarity with some techniques that will be helpful for the sprint challenge! NumPy will be a useful dependency for generating certain kinds of random numbers.
+
+1) `def random_phrase():` Write a function that can create a random combination of adjectives and nouns. When called the function should return a single string containing a **randomly selected** adjective and noun pair:
+
+**Adjectives**
 
 `['blue', 'large', 'grainy', 'substantial', 'potent', 'thermonuclear']`
 
-### Nouns
+**Nouns**
 
 `['food', 'house', 'tree', 'bicycle', 'toupee', 'phone']`
 
@@ -41,17 +45,23 @@ For example:
 
 > 'blue bicycle'
 
-* `def random_float(min_val, max_val):`
+---
 
-Write a function that returns a random float sampled from a uniform distribution with a minimum value of `min_val` and a maximum value of `max_val`.
+2) `def random_float(min_val, max_val):`
 
-* `random_bowling_score():`
+Write a function that returns a random **float** sampled from a uniform distribution with a minimum value of `min_val` and a maximum value of `max_val`.
+
+---
+
+3) `random_bowling_score():`
 
 Write a function that when called returns a random **integer** between 0 and 300.
 
-* `def silly_tuple():`
+---
 
-Write a function that when called returns a tuple that contains three items. the first should be a random adjective-noun string, the second should be a float representing a star-rating between 1 and 5 - rounded to one decimal place. And the third item should be a randome bowling score between 0 and 300.
+4) `def silly_tuple():`
+
+Write a function that when called returns a tuple that contains three items. the first should be a random adjective-noun string, the second should be a float representing a star-rating between 1 and 5 - rounded to one decimal place. And the third item should be a random bowling score between 0 and 300.
 
 Examples:
 
@@ -63,17 +73,19 @@ Examples:
 
 > ('potent phone', 0.7, 83)
 
-* `def silly_tuple_list(num_tuples):`
+5) `def silly_tuple_list(num_tuples):`
 
 Write a function that returns a list filled with a designated number of silly tuples.
 
-`>>> silly_tuple_list(num_tuples)`
+`>>> silly_tuple_list(2)`
 
 > [('blue house', 4.2, 187), ('potent phone', 0.7, 83)]
 
 Please note how all of the above functions build on each other and use previous functions that have been written to complete their work. These are examples of "helper functions." Helper functions are functions that don't necessarily exist to be called directly, but exist to be used by other functions to complete their work.
 
-3) Implement at least 1 of the following "helper" utility functions in a `helper_functions.py` module. These code tasks are more advanced and are more robust to what you would find inside of a package that you  import and use as a tool during another project. You can use Pandas and/or NumPy functions to help you 
+### Part 3 
+
+Implement at least 1 of the following "helper" utility functions in a `helper_functions.py` module. These code tasks are more advanced and are more robust to what you would find inside of a package that you  import and use as a tool during another project. You can use Pandas and/or NumPy functions to help you 
 
 * `def null_count(df)`: Check a dataframe for nulls and return the number of missing values.
 
