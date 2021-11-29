@@ -22,11 +22,11 @@
 
 ## Live Lecture Task
 
-See [guided-project.md](https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/assignment.md)
+See [guided-project.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/assignment.md)
 
 ## Assignment
 
-See [assignment.md](https://github.com/LambdaSchool/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/assignment.md)
+See [assignment.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/assignment.md)
 
 ## Stretch Goal
 
@@ -61,7 +61,7 @@ can get up and running with sophisticated systems remarkably quickly.
 ("light")? [This blog post](https://www.backblaze.com/blog/vm-vs-containers/)
 highlights and summarizes the benefits and use cases of both.
 
-Here are some other walkthroughs of Docker that have been given at Lambda School, should you want to go deeper on this subject:
+Here are some other walkthroughs of Docker that have been given at BloomTech, should you want to go deeper on this subject:
 
 - [Labs 20 Docker Overview](https://youtu.be/nrzxKL4bsLI)
 - [Guest Lecture on Docker from Adam Basloe](https://www.youtube.com/watch?v=kQbDnDsO8MQ&feature=youtu.be)

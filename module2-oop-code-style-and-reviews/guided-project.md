@@ -32,7 +32,7 @@ Let's create a class that can represents any vehicle. We will begin our class de
 class Vehicle:
 ```
 
-Whenever we write the name of the class (in this case `Vehicle`) the convention is that we should write it using "UpperCamelCase" this means that we will capitalize each word and put no spaces or underscores in its name. For example, if we were creating a class about Lambda School students we would write: `class LambdaSchoolStudent:`
+Whenever we write the name of the class (in this case `Vehicle`) the convention is that we should write it using "UpperCamelCase" this means that we will capitalize each word and put no spaces or underscores in its name. For example, if we were creating a class about BloomTech students we would write: `class LambdaSchoolStudent:`
 
 ### Adding Class Attributes
 

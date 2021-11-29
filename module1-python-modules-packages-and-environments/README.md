@@ -9,7 +9,7 @@ Places for your code (and dependencies) to live.
 
 ## Before Lecture
 
-In order to follow along fully with today’s Guided Project, please use this warmup time and [this document](https://github.com/LambdaSchool/DS-Unit-3-Setup) to install the following tools:
+In order to follow along fully with today’s Guided Project, please use this warmup time and [this document](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Setup) to install the following tools:
 
 * VS Code
 * Git Bash
