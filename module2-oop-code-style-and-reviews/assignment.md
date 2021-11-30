@@ -1,16 +1,25 @@
-## Assignment
+# Assignment
 
-First, revisit your code from yesterday - was it stylistic? Look over your code and compare it to the PEP8 guide (maybe even use your linter)
-and correct any issues you see. Also, refactor the code you wrote yesterday (the helper functions)
-to use at least 1 class - remember, be DRY (Don't Repeat Yourself), not WET
-(Write Every Time)!
+## Part 1 - PEP8 Styles
 
-Then - code review! Examine the code below and clean it up following the [PEP8 Style Guide](https://pep8.org/) 
-and try your best to avoid using your linter! Here is the unreadable code that you should try and 
-make PEP8 compliant: 
+Revisit your code from yesterday - was it stylistic? Look over your code and compare it to the PEP8 guide (maybe even use your linter)
+and correct any issues you see.
+
+## Part 2 - Add Some Classes
+
+Create a new file in your lambdata folder called `student.py`
+
+- Create a parent class called `Student` that has at least two attributes and two methods associated with it.
+
+- Create a child class called `BloomTechStudent` that adds at least one attribute and one method that are specific to BloomTech students.
+
+- Then write a function called `student_generator` that will generate randomly generate values for your Bloomtech student's attributes. Create 30 different randomly generated Bloomtech students and add them to a list.
+
+## Part 3 - Code Review
+
+Copy the code below into a new `code_review.py` file and then work on cleaning it up following the [PEP8 Style Guide](https://pep8.org/). Try it without your linter first and see how far you can get and then turn your linter on to see what you missed.
 
 ```python
-
 ### IN style_example.py FILE###
 
 #what would you say if you were working with someone and this is the code they gave you?
@@ -36,21 +45,23 @@ THIS IS MORE CODE
 ```
 
 Here a few considerations to keep in mind while doing a code review:
+
 - Can you follow the code flow/layout?
 - Can you understand the logic/reasoning for what it is doing?
 - Could you build with (`import` and use) or extend on it (as a developer adding
   more to the codebase)?
   
+## What should I submit to Canvas?
 
-Please submit your new `helper_functions.py` that's been transformed into classes and 
-the edited code review as a file named `code_review.py`.
+Please submit your `student.py` file and your `code_review.py` files to Canvas.
 
 ## Resources and Stretch Goals
 
-#### Stretch: 
+### Stretch Goals
+
 If you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
 
-#### Resources:
+### Resources
 
 If you have trouble getting a PEP8 tool working in your local environment, you can use [PEP8 online](http://pep8online.com/) to check code.
 
