@@ -95,6 +95,9 @@ class Wallet():
     
     def add_cash(self, amount):
         self.balance += amount
+
+    def __repr__(self):
+        return f'<Wallet, Balance: ${self.balance}>'
 ```
 
 Create a new file called `test_wallet.py` to test the class, import the class into the file and then let's write some functions to test the class functionality.
