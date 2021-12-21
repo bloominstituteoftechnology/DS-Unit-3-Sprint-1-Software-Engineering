@@ -19,7 +19,7 @@ In order to pursue today's stretch goal's you'll also want to have installed the
 
 ### Part 1
 
-Create your own `lambdata-yourusername` package (structure your package the same way it was done in the lecture). Make sure that you're working from a virtual environment and that you have an outer project-level folder and an inner project sub-folder.
+Create your own `bloomdata-yourusername` package (structure your package the same way it was done in the lecture). Make sure that you're working from a virtual environment and that you have an outer project-level folder and an inner project sub-folder.
 
 ### Part 2
 
