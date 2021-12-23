@@ -22,7 +22,7 @@
 
 ## Live Lecture Task
 
-See [guided-project.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/assignment.md)
+See [guided-project.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module3-containers-and-reproducible-builds/guided-project.md)
 
 ## Assignment
 
