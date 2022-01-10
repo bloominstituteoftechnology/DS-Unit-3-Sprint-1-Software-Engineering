@@ -36,7 +36,7 @@ For more information visit the [Guided Project markdown file](https://github.com
 
 ## Module Project (assignment)
 
-1) Create your own lambdata-yourusername package (structure your package the same way it was done in the lecture)  
+1) Create your own bloomdata-yourusername package (structure your package the same way it was done in the lecture)  
 2) Implement at least 2 of the following "helper" utility functions in a `helper_functions.py` module.
 
 For more information visit the [Module Project markdown file](https://github.com/ryanleeallred/DS-Unit-3-Sprint-1-Software-Engineering/blob/main/module1-python-modules-packages-and-environments/assignment.md)
@@ -52,9 +52,9 @@ For more information visit the [Module Project markdown file](https://github.com
 ### Publishing your Package with PyPI
 
 1. Register for a test PyPI account
-2. Publish your package as lambdata-yourusername (to avoid conflicts)
-3. Start a Python notebook, and install your package with !pip install --index-url [https://test.pypi.org/simple/](https://test.pypi.org/simple/) lambdata-yourusername
-4. import lambdata_yourusername as lambdata in your notebook, and try it out!
+2. Publish your package as bloomdata-yourusername (to avoid conflicts)
+3. Start a Python notebook, and install your package with !pip install --index-url [https://test.pypi.org/simple/](https://test.pypi.org/simple/) bloomdata-yourusername
+4. import bloomdata_yourusername as bloomdata in your notebook, and try it out!
 
 We suggest using [Twine](https://pypi.org/project/twine/#:~:text=Twine%20is%20a%20utility%20for,and%20links%20to%20additional%20resources.) for uploading your pypi packages. Twine itself can be installed with pipenv install -d twine so it is a development dependency.
 
@@ -64,7 +64,7 @@ You might find the command below important in uploading: twine upload --reposito
 
 Many of the utility functions can be implemented with the right clever calls to pandas, numpy, and other libraries - that's fine! Use those as dependencies. There's still value in a package that encapsulates more complicated libraries and exposes streamlined functionality with a simplified API. If you would like to generate some fake data check out the [Faker python package](https://faker.readthedocs.io/en/master/) to craft specific data types.
 
-Also note - there's a lot more than 2 ideas to choose from for your helper functions. Throughout the week, whenever you have finished the daily assignment baseline, you can always come back and add more functionality to your lambdata (including ideas of your own)!
+Also note - there's a lot more than 2 ideas to choose from for your helper functions. Throughout the week, whenever you have finished the daily assignment baseline, you can always come back and add more functionality to your bloomdata (including ideas of your own)!
 
 Check out steps 3 to 6 if you would like to attempt a stretch goal. I would recommend trying to figure this out on your own! Remember to check documentation and Google!
 
