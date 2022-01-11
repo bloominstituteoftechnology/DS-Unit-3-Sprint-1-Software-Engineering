@@ -7,7 +7,7 @@ and correct any issues you see.
 
 ## Part 2 - Add Some Classes
 
-Create a new file in your lambdata folder called `student.py`
+Create a new file in your bloomdata folder called `student.py`
 
 - Create a parent class called `Student` that has at least two attributes and two methods associated with it.
 
@@ -59,7 +59,7 @@ Please submit your `student.py` file and your `code_review.py` files to Canvas.
 
 ### Stretch Goals
 
-If you get through all of the above - make `lambdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
+If you get through all of the above - make `bloomdata` better! Implement 2 more helper functions, and/or refactor your code to be more object-oriented.
 
 ### Resources
 
