@@ -30,10 +30,17 @@ See [assignment.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Spri
 
 ## Stretch Goal
 
-If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
+1) Install docker on your machine and get a container running locally:
+
+- If you have Linux, MacOS Sierra or newer or Windows 10 Pro, install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- If you have older MacOS, Windows 10 Home, or older Windows, install [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
+
+2) If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
 
 This is a relatively simple baseline to support the variety of local workflows
 students will have.
+
+## What should I submit to Canvas?
 
 On Canvas please turn in your `Dockerfile`.
 
@@ -43,7 +50,7 @@ On Canvas please turn in your `Dockerfile`.
 Classroom](https://training.play-with-docker.com/) - a Docker Hub account will
 let you try Docker and spin up containers from your browser. They are
 *temporary* (will go away when you leave the page), and editing the `Dockerfile`
-will be a bit cumbersome, but we'll show how to in class.
+will be a bit cumbersome, but we'll show how to do this in class.
 
 - The [official Docker documentation](https://docs.docker.com/) is extremely
 thorough and worth checking out.
