@@ -37,8 +37,6 @@ See [assignment.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Spri
 
 2) If you pushed your package to PyPi try to install and run the code from your `lambdata` package inside a Docker container.
 
-This is a relatively simple baseline to support the variety of local workflows
-students will have.
 
 ## What should I submit to Canvas?
 
