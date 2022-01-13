@@ -26,9 +26,9 @@ See [assignment.md](https://github.com/BloomInstituteOfTechnology/DS-Unit-3-Spri
 
 ## Stretch Goal
 
-Add a `ROADMAP.md` file to your repo, with an outline of where you'd like to take your `lambdata` project. It can also include guidelines for what sort of contributions you'd like to have and how somebody can go about getting started building and developing on your code.
+Add a `ROADMAP.md` file to your repo, with an outline of where you'd like to take your `bloomdata` project. It can also include guidelines for what sort of contributions you'd like to have and how somebody can go about getting started building and developing on your code.
 
-Run [pydoc](https://docs.python.org/3.7/library/pydoc.html) on your `lambdata` package to generate documentation based on your docstring comments. Try browsing it locally, and for an extra stretch goal - put it in a `/docs` directory in your repo and enable GitHub Pages to serve it on the web!
+Run [pydoc](https://docs.python.org/3.7/library/pydoc.html) on your `bloomdata` package to generate documentation based on your docstring comments. Try browsing it locally, and for an extra stretch goal - put it in a `/docs` directory in your repo and enable GitHub Pages to serve it on the web!
 
 Try [unittest](https://docs.python.org/3/library/unittest.html), a Python testing framework included in the standard library. This is a bit less powerful than `pytest`.
 
