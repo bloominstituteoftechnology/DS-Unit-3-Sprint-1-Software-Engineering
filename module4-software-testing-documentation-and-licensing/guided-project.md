@@ -1,6 +1,6 @@
 # Testing
 
-First we'll write some basic unit tests to demonstrate their functionality. We'll apply these concepts to `lambdata`, but will also discuss them more generally. Come to class with questions and be prepared to discuss documentation and licensing as well!
+First we'll write some basic unit tests to demonstrate their functionality. We'll apply these concepts to `bloomdata`, but will also discuss them more generally. Come to class with questions and be prepared to discuss documentation and licensing as well!
 
 ## Setup and Installation
 
@@ -14,27 +14,27 @@ Then we'll also install it to our virtual environment specifically, but we'll in
 
 By using `--dev` and putting our test file outside of our package we're indicating to users of our package that the test suite and testing files that we're including are not something that they should need to use as part of the package itself, but that those parts of the project are for us the "developers" who are creating the package, not necessarily meant for users of the package --unless they want to make an open source contribution.
 
-Create a file in your main project folder, but not inside of the lambdata folder call it `test_lambdata.py` it is a convention to put the word "test" at the beginning of any files that are for testing our code.
+Create a file in your main project folder, but not inside of the bloomdata folder call it `test_bloomdata.py` it is a convention to put the word "test" at the beginning of any files that are for testing our code.
 
-Import pytest and our lambdata package at the top of our new test file
+Import pytest and our bloomdata package at the top of our new test file
 
 ```python
 import pytest
-import lambdata
+import bloomdata
 ```
 
-inside of your `lambdata.py` add the following function
+inside of your `bloomdata.py` add the following function
 
 ```python
 def increment(num):
     return num + 1
 ```
 
-Then, inside of your `test_lambdata.py` file import lambdata and create a function specifically to test the implementation of imcrement int. We'll put `assert` statements inside of our testing function. We can add as many assert statements as we like. If any of these assert statements fail an error will be thrown by pytest when the testing file is executed.
+Then, inside of your `test_bloomdata.py` file import bloomdata and create a function specifically to test the implementation of imcrement int. We'll put `assert` statements inside of our testing function. We can add as many assert statements as we like. If any of these assert statements fail an error will be thrown by pytest when the testing file is executed.
 
 ```python
 
-import lambdata as ld
+import bloomdata as ld
 
 def test_increment_int():
     assert ld.increment_num(3) == 4
@@ -43,7 +43,7 @@ def test_increment_int():
 
 Now go to your ternimal and run the test file.
 
-`pytest test_lambdata.py`
+`pytest test_bloomdata.py`
 
 You should see output similar to the following if all of the assert statements in your test function have evaluated to `True`
 
@@ -64,7 +64,7 @@ def test_increment_neg_float():
 
 This time try running your test file with pytest using verbose output
 
-`pytest test_lambdata.py --verbose`
+`pytest test_bloomdata.py --verbose`
 
 The verbose output can be extra helpful for not only getting insight into which tests failed by why they failed as well. It does a good job of showing ups what was expected when we ran the test versus what values we actually got when we ran the test.
 
