@@ -151,7 +151,10 @@ A decorator adds functionality to an already existing function by adding lines o
 We will us a wrapper function: `wrapper` to add lines of code before and after we invoke the main function of interest: `my_func`.
 
 ```python
+from functools import wraps
+
 def my_decorator(my_func):
+  @wraps(func)
   def wrapper():
     print("This happens before the function")
     my_func()
@@ -161,6 +164,8 @@ def my_decorator(my_func):
 def my_func():
   print("Stuff my function does")
 
+# this is only for illustration of how decorators work
+# prefer to use the decorator syntax @my_decorator, see below
 extended_func = my_decorator(my_func)
 
 extended_func()
