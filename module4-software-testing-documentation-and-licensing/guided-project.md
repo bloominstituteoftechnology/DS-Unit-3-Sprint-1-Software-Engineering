@@ -104,7 +104,9 @@ Create a new file called `test_wallet.py` to test the class, import the class in
 
 ## Decorators
 
-Decorators wrap a function to modify its behavior. They always start with the `@` symbol and are used right before a function. They will modify the behavior of the function that comes directly after the `@decorator` statement
+Decorators wrap a function to modify its behavior. They always start with the `@` symbol and are used right before a function. They will modify the behavior of the function that comes directly after the `@decorator` statement.
+
+Decorators and higher-order functions are fundamental concepts in Python that provide powerful ways to enhance and manipulate code. Decorators allow you to modify the behavior of functions or classes without altering their source code, while higher-order functions treat functions as first-class objects, enabling you to pass them as arguments or return them as results. Together, decorators and higher-order functions offer a concise and flexible approach to extending functionality and writing reusable code.
 
 ### Functions as first class objects in Python
 
