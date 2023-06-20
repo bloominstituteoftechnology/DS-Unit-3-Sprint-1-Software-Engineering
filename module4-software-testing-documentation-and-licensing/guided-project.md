@@ -108,9 +108,11 @@ Decorators wrap a function to modify its behavior. They always start with the `@
 
 Decorators and higher-order functions are fundamental concepts in Python that provide powerful ways to enhance and manipulate code. Decorators allow you to modify the behavior of functions or classes without altering their source code, while higher-order functions treat functions as first-class objects, enabling you to pass them as arguments or return them as results. Together, decorators and higher-order functions offer a concise and flexible approach to extending functionality and writing reusable code.
 
+In Python, decorators are implemented using higher-order functions. Higher-order functions enable the creation of wrapper functions that add additional functionality to target functions or classes. By leveraging the power of higher-order functions, Python provides a concise and elegant way to apply decorators, allowing for the flexible enhancement of code behavior.
+
 ### Functions as first class objects in Python
 
-When we say that a function is a first-class object in python, what we mean is that the function definition (the function body) can be saved to a variable and passed around as a variable just like anything else.
+When we say that a function is a first-class object in python, what we mean is that the function can be passed around by name as a variable just like anything else. Not all languages support this idea. Historically it's found in all pure Functional languages but rarely in pure OOP languages. Python supports both OOP and Functional code.
 
 ```python
 def say_hello(name):
@@ -123,7 +125,7 @@ def greet_bob(greeting_func):
   return greeting_func('Bob')
 ```
 
-What a function does basically gets stored to a variable under the function name. The function is invoked when we put the invoking parentheses after the function's name.
+What a function does basically gets stored to a variable under the function name. The function is invoked (called) when we put the invoking parentheses after the function's name.
 
 ```python
 # the say_hello variable holds the function definition inside of it.
